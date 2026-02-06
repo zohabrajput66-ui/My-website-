@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vellum Fragrance | Luxury That Lasts</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #050505;
+      color: #e5e5e5;
+    }
+    .text-gold-shine {
+      background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      background-size: 200% auto;
+      animation: shine 4s linear infinite;
+    }
+    @keyframes shine { to { background-position: 200% center; } }
+    a { text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-6 bg-black fixed w-full z-50">
+    <h1 class="font-serif text-2xl text-white">VELLUM<span class="text-yellow-500">.</span></h1>
+    <div class="space-x-6">
+      <a href="#home" class="hover:text-yellow-500">Home</a>
+      <a href="#shop" class="hover:text-yellow-500">Shop</a>
+      <a href="#custom" class="hover:text-yellow-500">Custom</a>
+      <a href="#about" class="hover:text-yellow-500">About</a>
+      <a href="#contact" class="hover:text-yellow-500">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="h-screen flex items-center justify-center bg-[url('https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=1920&auto=format&fit=crop')] bg-cover bg-center relative mt-20">
+    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="text-center relative z-10 px-4 max-w-2xl">
+      <h1 class="text-5xl md:text-6xl font-serif text-white mb-4">
+        Luxury Fragrances That <span class="text-gold-shine">Define Your Presence</span>
+      </h1>
+      <p class="text-gray-300 mb-6">Long-lasting perfumes crafted for confidence, style, and elegance.</p>
+      <a href="https://wa.me/923130319689" target="_blank" class="bg-yellow-500 text-black px-8 py-3 uppercase font-bold rounded hover:bg-yellow-400 transition">Order Now</a>
+    </div>
+  </section>
+
+  <!-- Shop Section -->
+  <section id="shop" class="py-20 bg-gray-900">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-4xl font-serif text-white text-center mb-10">Featured Collection</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <div class="bg-black p-6 rounded-lg border border-gray-800">
+          <img src="https://images.unsplash.com/photo-1594035910387-406691aa6981?q=80&w=600&auto=format&fit=crop" alt="Midnight Oud" class="mb-4 rounded-lg">
+          <h3 class="text-xl text-white mb-2">Midnight Oud</h3>
+          <p class="text-yellow-500 font-bold mb-2">PKR 4,500</p>
+          <a href="https://wa.me/923130319689?text=I%20want%20to%20order%20Midnight%20Oud" target="_blank" class="block bg-yellow-500 text-black text-center py-2 rounded hover:bg-yellow-400 transition">Order WhatsApp</a>
+        </div>
+
+        <div class="bg-black p-6 rounded-lg border border-gray-800">
+          <img src="https://images.unsplash.com/photo-1592914610354-fd354ea45e48?q=80&w=600&auto=format&fit=crop" alt="Rose Elixir" class="mb-4 rounded-lg">
+          <h3 class="text-xl text-white mb-2">Rose Elixir</h3>
+          <p class="text-yellow-500 font-bold mb-2">PKR 3,800</p>
+          <a href="https://wa.me/923130319689?text=I%20want%20to%20order%20Rose%20Elixir" target="_blank" class="block bg-yellow-500 text-black text-center py-2 rounded hover:bg-yellow-400 transition">Order WhatsApp</a>
+        </div>
+
+        <div class="bg-black p-6 rounded-lg border border-gray-800">
+          <img src="https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?q=80&w=600&auto=format&fit=crop" alt="Oceanic Breeze" class="mb-4 rounded-lg">
+          <h3 class="text-xl text-white mb-2">Oceanic Breeze</h3>
+          <p class="text-yellow-500 font-bold mb-2">PKR 3,500</p>
+          <a href="https://wa.me/923130319689?text=I%20want%20to%20order%20Oceanic%20Breeze" target="_blank" class="block bg-yellow-500 text-black text-center py-2 rounded hover:bg-yellow-400 transition">Order WhatsApp</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-gray-800 text-center text-white">
+    <h2 class="text-4xl font-serif mb-6">Our Story</h2>
+    <p class="max-w-3xl mx-auto mb-4">Founded in Karachi, <strong>Vellum Fragrance</strong> brings world-class luxury scents to Pakistan without the high price tag.</p>
+    <p class="max-w-3xl mx-auto">Our mission: <strong>Create fragrances that define your presence.</strong></p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-900 text-white">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-4xl font-serif text-center mb-6">Contact Us</h2>
+      <div class="flex flex-col md:flex-row gap-10">
+        <div class="flex-1">
+          <p>WhatsApp & Phone: <a href="https://wa.me/923130319689" class="text-yellow-500">03130319689</a></p>
+          <p>Location: Karachi, Pakistan</p>
+          <p>Email: info@vellumfragrance.com</p>
+        </div>
+        <div class="flex-1">
+          <form class="flex flex-col gap-4">
+            <input type="text" placeholder="Name" class="p-3 rounded bg-black border border-gray-700 text-white">
+            <input type="email" placeholder="Email" class="p-3 rounded bg-black border border-gray-700 text-white">
+            <textarea placeholder="Message" rows="3" class="p-3 rounded bg-black border border-gray-700 text-white"></textarea>
+            <button class="bg-yellow-500 text-black py-3 rounded font-bold hover:bg-yellow-400 transition">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 bg-black text-gray-500 text-center">
+    &copy; 2026 Vellum Fragrance. All rights reserved.
+  </footer>
+
+</body>
+</html>
